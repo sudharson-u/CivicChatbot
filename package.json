@@ -1,0 +1,27 @@
+{
+  "name": "civicai-global",
+  "version": "2.0.0",
+  "description": "CivicAI — World-wide AI civic and government services assistant powered by Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@google/generative-ai": "^0.21.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["civic", "chatbot", "AI", "government", "Tamil Nadu", "India", "multilingual", "Gemini"],
+  "license": "MIT"
+}
